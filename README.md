@@ -28,36 +28,3 @@ Solutions 은 [Pull Request](https://help.github.com/articles/using-pull-request
 1. **여러분의 fork** 에서 `Pull Requests` 를 선택하고, `New pull request` 를 생성합니다.
 2. Pull Request 의 comment block 에 Grading Outline 을 채워넣고 복사해 붙입니다. [grading-outline](/grading-outline.md) 참고
 3. `Send pull request` 를 클릭합니다.
-
----
-
-## Algo Time Complexity
-
-Inside of `algo-time-complexity.js`, identify the time complexity of the following functions:
-- [ ] `sortedIndexOf`
-- [ ] `findDuplicates`
-- [ ] `bruteForcePassword`
-- [ ] `hasDuplicates`
-- [ ] `removeLastThreeElements`
-- [ ] `increasingStep`
-- [ ] `makeRange`
-
-### Available Resources for this Prompt
-  * MDN
-
-## Pseudo-classical inheritance
-* [ ] Rewrite `makeHorse` and `makeFlyingHorse` to use pseudo-classical inheritance
-  * They must have all of the same methods as objects returned from the maker functions
-  * _Do not modify the factory functions - instead, use the constructor functions at the end of the file_
-
-## Chat Client
-This repository is a chat-client like the one you built for Chatterbox Client. It has a (mostly) completed HTML/CSS user interface, but is missing a critical feature:
-
-* [ ] Inside `js/setup.js`, locate the function responsible for sending messages to the server and write a comment to indicate your claim
-* [ ] In the method that you identified, make it so that any message sent to the server appears in the chat log as soon as the client knows that the server successfully received them, rather than waiting for a refresh or the timed update
-
-Note that this is an exercise in reading code and code reuse, so expect to spend most of your time figuring out where to make changes and try to write as little code as possible
-
-### Available Resources for this Prompt
-* jQuery docs
-* MDN
