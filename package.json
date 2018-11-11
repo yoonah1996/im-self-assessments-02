@@ -1,0 +1,24 @@
+{
+  "name": "im09-2018-11-self-assessments-week-02",
+  "version": "1.0.0",
+  "description": "## Guidelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail --exit **/*.test.js; pkill -n node;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestates/im09-2018-11-self-assessments-week-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codestates/im09-2018-11-self-assessments-week-02/issues"
+  },
+  "homepage": "https://github.com/codestates/im09-2018-11-self-assessments-week-02#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
