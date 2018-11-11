@@ -1,3 +1,18 @@
+const should = require('chai').should();
+const {
+  sortedIndexOfTimeComplexity,
+  findDuplicatesTimeComplexity,
+  bruteForcePasswordTimeComplexity,
+  hasDuplicatesTimeComplexity,
+  removeLastThreeElementsTimeComplexity,
+  increasingStepTimeComplexity,
+  makeRangeTimeComplexity,
+  TimeComplexity
+} = require('./algo-time-complexity');
+
+console.log('sortedIndexOfTimeComplexity',sortedIndexOfTimeComplexity);
+
+
 describe('algorithm time complexity', function() {
   it('should be \'logarithmic\' for sortedIndexOf', function() {
     sortedIndexOfTimeComplexity.should.equal(TimeComplexity.LOGARITHMIC);
