@@ -1,4 +1,8 @@
-
+const should = require('chai').should();
+const {
+  Horse,
+  FlyingHorse
+} = require('./js-inheritance-pseudo-classical-alt');
 
 describe('Horse', function() {
   it('should be should be callable as a constructor', function() {

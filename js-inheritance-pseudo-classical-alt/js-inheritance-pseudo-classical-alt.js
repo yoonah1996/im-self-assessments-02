@@ -1,8 +1,8 @@
 // We've provided `makeHorse` and `makeFlyingHorse` for you, written using the
 // functional pattern. Your task is to rewrite these classes to use the
-// pseudoclassical pattern. They should have all the same methods as the 
-// objects returned from the maker functions except in pseudo classical style. 
-// You must be able to use your new functions to create new horse instances, 
+// pseudoclassical pattern. They should have all the same methods as the
+// objects returned from the maker functions except in pseudo classical style.
+// You must be able to use your new functions to create new horse instances,
 // just like this:
 //
 //   var myHorse = new Horse();
@@ -46,4 +46,7 @@ var Horse = function(name) {
 var FlyingHorse = function(name, color) {
 };
 
-
+module.exports = {
+  Horse,
+  FlyingHorse
+}
