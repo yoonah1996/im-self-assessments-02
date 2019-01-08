@@ -1,15 +1,19 @@
 ## Chat Client
-This repository is a chat-client like the one you built for Chatterbox Client. It has a (mostly) completed HTML/CSS user interface, but is missing a critical feature:
-go visit https://jsonplaceholder.typicode.com and see the fake api resource for posts (GET and POST)
-You will use this resource for this assessment.
 
-* [ ] Inside `js/setup.js`, locate the function responsible for sending a post to the server and write a comment to indicate your claim / 한글: `js/setup.js` 에서 서버로 포스트를 보내는 함수를 찾아 구현하세요.
-* [ ] In the method that you identified, make it so that any post sent to the server appears in the chat log along with other latest posts as soon as the client knows that the server successfully received them, rather than waiting for a refresh or the timed update (refer to the post id for sorting data) / 한글: 포스트를 성공적으로 보내면 성공적으로 보낸 메시지와 함께 서버에 업데이트 된 모든 포스트 들을 브라우저 상에 포스트 된 최신 순으로 보이게 해 주세요. (포스트 id 참조)
+chat client assignment 는 test case 가 없습니다.
+
+This repository is a chat-client like the one you built for Chatterbox Client. It has a (mostly) completed HTML/CSS user interface, but is missing a critical feature:
+
+go visit https://jsonplaceholder.typicode.com and see the fake api resource for posts (GET)
+You will use this resource for this assessment. 해당 링크를 방문하여 fake api resource 들을 알아보세요.
+
+- [ ] Inside `js/setup.js`, find and implement fetch function that fetchs posts which are array of title and body json data 서버로부터 title 과 body 로 이루어진 array data 를 받아오는 함수를 구현해 보세요
+- [ ] As soon as you fetch the data, update the DOM so that you can see fetched posts with title and body in order of psot id. Please apply your own style to make it pretty. data fetch가 성공하면 바로 DOM에 title 과 body로 이루어진 data array를 post id 순서대로 그려보세요. 여러분들만의 스타일을 적용하여 꾸며 보세요.
 
 Note that this is an exercise in reading api document and reading code, so expect to spend most of your time figuring out where to make changes and try to write as little code as possible
 
 ### Available Resources for this Prompt
-* jQuery docs
-* MDN
-* https://jsonplaceholder.typicode.com
 
+- jQuery docs
+- MDN
+- https://jsonplaceholder.typicode.com

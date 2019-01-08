@@ -6,7 +6,3 @@ var getData = function() {
 var displayData = function(data, user) {
   // your code HERE
 };
-
-var postData = function(message, username) {
-  // your code HERE
-};
