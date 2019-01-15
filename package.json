@@ -4,7 +4,8 @@
   "description": "## Guidelines",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --bail --exit **/*.test.js; pkill -n node;"
+    "test": "mocha --bail --exit **/*.test.js",
+    "test-for-circleci": "mocha **/*.test.js"
   },
   "repository": {
     "type": "git",

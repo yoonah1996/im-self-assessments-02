@@ -25,6 +25,7 @@
 
 Solutions 은 [Pull Request](https://help.github.com/articles/using-pull-requests) 를 통해 제출합니다. 아래 순서대로 제출해주세요:
 
-1. **여러분의 fork** 에서 `Pull Requests` 를 선택하고, `New pull request` 를 생성합니다.
-2. Pull Request 의 comment block 에 Grading Outline 을 채워넣고 복사해 붙입니다. [grading-outline](/grading-outline.md) 참고
-3. `Send pull request` 를 클릭합니다.
+1. students.json에 기수, 이름을 입력합니다.
+2. **여러분의 fork** 에서 `Pull Requests` 를 선택하고, `New pull request` 를 생성합니다.
+3. Pull Request 의 comment block 에 Grading Outline 을 채워넣고 복사해 붙입니다. [grading-outline](/grading-outline.md) 참고
+4. `Send pull request` 를 클릭합니다.
