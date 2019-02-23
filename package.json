@@ -1,25 +1,14 @@
 {
-  "name": "im09-2018-11-self-assessments-week-02",
+  "name": "self-assessments-week-02",
   "version": "1.0.0",
-  "description": "## Guidelines",
+  "description": "code states self assessments",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --bail --exit **/*.test.js",
-    "test-for-circleci": "mocha **/*.test.js"
+    "test": "mocha **/*.test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codestates/im09-2018-11-self-assessments-week-02.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codestates/im09-2018-11-self-assessments-week-02/issues"
-  },
-  "homepage": "https://github.com/codestates/im09-2018-11-self-assessments-week-02#readme",
-  "dependencies": {
+  "author": "codestates",
+  "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^6.0.1"
   }
 }
