@@ -4,7 +4,7 @@ const colors = require('colors')
 // Get sutdent data and test results from student.json & result.json
 let studentInfo = require("../student.json");
 let testResult = require("../result.json")
-let { theClass, student, sprint } = studentInfo;
+let { th, name, sprint } = studentInfo;
 let { passed, failed } = testResult
 
 console.log(['테스트 결과입니다.', `통과된 테스트: ${passed}`.green, `통과하지 못한 테스트: ${failed}`.red].join('\n'))
@@ -43,8 +43,8 @@ const result = new Promise((resolve, reject) => {
   req.write(
     JSON.stringify({
       fields: {
-        class: theClass,
-        name: student,
+        class: th,
+        name: name,
         sprint: sprint,
         passed,
         failed
