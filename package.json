@@ -4,11 +4,10 @@
   "description": "code states self assessments",
   "main": "index.js",
   "scripts": {
-    "test": "mocha __test__/test.js --exit",
+    "test": "mocha __test__/test.js --reporter reporter.js --exit",
     "check": "node .airci/submit.js",
     "pre-test": "node __test__/preTest.js",
-    "submit-test": "mocha __test__/test.js --reporter reporter.js --exit",
-    "submit": "npm-run-all -s --silent pre-test submit-test check"
+    "submit": "npm-run-all -s --silent pre-test check"
   },
   "author": "codestates",
   "devDependencies": {
