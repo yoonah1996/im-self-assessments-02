@@ -24,5 +24,6 @@
 
 Solutions 은 [npm run submit] 을 통해 제출합니다. 아래 순서대로 제출해주세요:
 
-1. students.json에 기수, 이름을 입력합니다.
-2. 해당 과제의 root 위치에서 [npm run submit] 을 입력합니다.
+1. students.json에 기수, 이름을 알맞은 형식으로 입력합니다.
+2. `npm run test` 을 실행해서 테스트 결과를 업데이트 합니다.
+2. 해당 과제의 root 위치에서 `npm run test` 이후에 `npm run submit` 을 입력합니다.
