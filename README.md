@@ -16,14 +16,10 @@
 
 각 문제들에는 참고 가능한 외부자료들의 목록이 포함되어 있습니다. 테스트중에 이전에 본인이 풀었던 코드, 다른 사람이 올린 코드등을 보는건 금지되어 있습니다. 참고 가능한 외부자료들의 목록 이외에 본인이 문제를 풀때 참고했던 자료들이 있다면 그 자료들의 목록을 각 문제에 코멘트로 적어주시기 바랍니다.
 
-## Self-Grading Process
-
-각 문제들을 푼 후, `README.md` 파일을 수정해서 grade 를 작성하시면 됩니다. 위의 Grading Outline 섹션의 [ ] 에 grade 를 스스로 매기시길 바랍니다. ([Grading Scale](/grading-outline.md) 를 참고)
-
 ## Submitting Solutions
 
 Solutions 은 [npm run submit] 을 통해 제출합니다. 아래 순서대로 제출해주세요:
 
 1. students.json에 기수, 이름을 알맞은 형식으로 입력합니다.
 2. `npm run test` 을 실행해서 테스트 결과를 업데이트 합니다.
-2. 해당 과제의 root 위치에서 `npm run test` 이후에 `npm run submit` 을 입력합니다.
+3. 해당 과제의 root 위치에서 `npm run test` 이후에 `npm run submit` 을 입력합니다.
