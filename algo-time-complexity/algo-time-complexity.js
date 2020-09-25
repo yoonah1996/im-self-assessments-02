@@ -13,7 +13,7 @@ var TimeComplexity = {
 };
 exports.TimeComplexity = TimeComplexity;
 
-exports.sortedIndexOfTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.sortedIndexOfTimeComplexity = /* START SOLUTION */TimeComplexity.LOGARITHMIC;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var sortedIndexOf = function(array, targetElement) {
   var minIndex = 0;
@@ -38,7 +38,7 @@ var sortedIndexOf = function(array, targetElement) {
 };
 
 
-exports.findDuplicatesTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.findDuplicatesTimeComplexity = /* START SOLUTION */TimeComplexity.LINEAR;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var findDuplicates = function(string) {
   var tracker = {};
@@ -57,7 +57,7 @@ var findDuplicates = function(string) {
 };
 
 
-exports.bruteForcePasswordTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.bruteForcePasswordTimeComplexity = /* START SOLUTION */TimeComplexity.EXPONENTIAL;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var bruteForcePassword = function(max) {
   var alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -77,7 +77,7 @@ var bruteForcePassword = function(max) {
 };
 
 
-exports.hasDuplicatesTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.hasDuplicatesTimeComplexity = /* START SOLUTION */TimeComplexity.QUADRATIC;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var hasDuplicates = function(array) {
   for (var i = 0; i < array.length; i++) {
@@ -91,7 +91,7 @@ var hasDuplicates = function(array) {
 
 
 
-exports.removeLastThreeElementsTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.removeLastThreeElementsTimeComplexity = /* START SOLUTION */TimeComplexity.CONSTANT;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var removeLastThreeElements = function(array) {
   var numberOfElementsToRemove = 3;
@@ -102,7 +102,7 @@ var removeLastThreeElements = function(array) {
 };
 
 
-exports.increasingStepTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.increasingStepTimeComplexity = /* START SOLUTION */TimeComplexity.LOGARITHMIC;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var increasingStep = function(number) {
   for (var i = 1; i < number; i = i * 2) {
@@ -111,7 +111,7 @@ var increasingStep = function(number) {
 };
 
 
-exports.makeRangeTimeComplexity = /* START SOLUTION */TimeComplexity.FIXME;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
+exports.makeRangeTimeComplexity = /* START SOLUTION */TimeComplexity.LINEAR;/* ELSE TimeComplexity.FIX_ME; END SOLUTION */ // TODO: Update this constant
 
 var makeRange = function(array) {
   array.forEach(function(item) {
